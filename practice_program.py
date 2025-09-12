@@ -12,7 +12,9 @@ average = (number_1+number_2+number_3)/3
 print(average)
 
 # qno.3 Write a program to store string literal and format the string
-paragraph = "My name is Sourav Bali\n I am from jammu \n I Love to study books and Novels \n My strength to observe people and fitness"
+name = "Sourav bali"
+age = 24
+paragraph = "My name is {}\nI am from jammu \nI Love to study books and Novels \nMy age is {}".format(name,age)
 print(paragraph)
 
 #  qno.4 Write a program to accept marks of 5 students from user calculate total , 
@@ -92,6 +94,7 @@ else:
         print("Number is zero (neither positive nor negative)") 
 
    
+
 
 
 
