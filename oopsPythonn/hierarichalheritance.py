@@ -1,0 +1,31 @@
+class animal:
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self):
+        print(self.name," is eating")
+    def findname(self):
+        return self.name
+
+obj = animal('billi')
+print(obj.name)  # Output: billi
+
+class cat(animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+    def  flying(self):
+        print(self.name ,"is flying")
+
+Cat = cat('kity', 'british')  # Provide both name and breed
+print(obj.name)   # Output: kity
+print(Cat.breed)  # Output: british
+Cat.eat()
+print(Cat.findname())
+
+class bird(animal):
+    def __init__(self, name,flyspeed):
+        super().__init__(name)
+Bird = bird('crow',45)
+Bird.eat()
+Bird.flying()
