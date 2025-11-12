@@ -1,0 +1,6 @@
+file = open('C:\\GitHub\\Python-Programming\\file.text1','w')
+file.write("This is a github file")
+file.close()
+file = open('C:\\GitHub\\Python-Programming\\file.text1','r')
+print(file.read())
+file.close()
